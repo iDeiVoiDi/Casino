@@ -15,22 +15,24 @@
 ---
 | La estructura seguida en el proyecto seria: <br> <br>
 
-casino/<br>
-├── pyproject.toml<br>
-├── uv.lock<br>
-├── main.py<br>
-└── app/<br>
-    ├── __init__.py<br>
-    ├── config.py<br>
-    ├── db.py<br>
-    ├── admin_tools.py<br>
-    ├── assets/<br>
-    ├── gui/<br>
-    │   ├── __init__.py<br>
-    │   ├── ventana.py<br>
-    │   └── menu.py<br>
-    └── games/<br>
-        ├── __init__.py<br>
-        ├── ruleta.py<br>
-        ├── caballos.py<br>
-        └── blackjack.py<br>
+```text
+casino/
+├── pyproject.toml
+├── uv.lock
+├── main.py
+└── app/
+    ├── __init__.py
+    ├── config.py
+    ├── db.py
+    ├── admin_tools.py
+    ├── assets/
+    ├── gui/
+    │   ├── __init__.py
+    │   ├── ventana.py
+    │   └── menu.py
+    └── games/
+        ├── __init__.py
+        ├── ruleta.py
+        ├── caballos.py
+        └── blackjack.py
+```
