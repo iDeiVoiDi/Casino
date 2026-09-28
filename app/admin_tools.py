@@ -1,8 +1,6 @@
 #=============================
 # ADMIN TOOLS
 #=============================
-# ADMIN TOOLS
-#=============================
 # Panel de herramientas de desarrollador por consola
 
 from app import db
