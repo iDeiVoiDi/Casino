@@ -1,13 +1,9 @@
-import sqlite3
+#=============================
+# MAIN
+#=============================
 
-conn = sqlite3.connect("casino.db")
-cursor = conn.cursor()
+from app.gui.ventana import iniciar
 
-# Crear la tabla (solo hace falta una vez, IF NOT EXISTS evita error si ya existe)
-cursor.execute("""
-    CREATE TABLE IF NOT EXISTS cuentas (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
-        nombre TEXT NOT NULL UNIQUE,
-        puntos INTEGER NOT NULL DEFAULT 1000
-    )
-""")
+#Al ejecutar este archivo, se arranca la app. 
+if __name__ == "__main__":
+    iniciar()
